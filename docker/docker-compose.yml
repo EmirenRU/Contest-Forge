@@ -20,7 +20,7 @@ services:
     build:
       context: ../
       dockerfile: Dockerfile
-    command: ["java", "-jar", "/builder/protocol/target/protocol-0.9.0.jar"]
+#    command: ["java", "-jar", "/builder/protocol/target/protocol-0.9.0.jar"]
     ports:
       - "13134:13134"
     volumes:
@@ -28,10 +28,6 @@ services:
     environment:
       - SERVER_FQW_URL=http://fqw:13131
       - JAVA_OPTS=-Xms1g -Xmx4g -XX:MaxRAMPercentage=80.0 -XX:+UseContainerSupport
-    links:
-
-    depends_on:
-      - fqworkstation-builder
     deploy:
       resources:
         limits:

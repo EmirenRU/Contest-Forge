@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e1b70cd-ff4c-4b6c-aa3a-278b451439e7" name="Changes" comment="feat(main: Emiren) - refactored code to make it only focused on contest (beforehand, need some testing).">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/nginx.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Layout/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Layout/layout.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +79,7 @@
     "Maven.contest [install].executor": "Run",
     "Maven.contest [package].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "PowerShell.docker-start.ps1.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -90,7 +96,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "ts.external.directory.path": "C:\\Users\\Emil Yusupov\\AppData\\Local\\JetBrains\\IntelliJ IDEA 2025.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "ts.external.directory.path": "C:\\Users\\Emil Yusupov\\IdeaProjects\\contest\\frontend\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -113,7 +119,11 @@
       <recent name="C:\Users\Emil Yusupov\IdeaProjects\contest" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PowerShell.docker-start.ps1">
+    <configuration name="docker-start.ps1" type="PowerShellRunType" factoryName="PowerShell" temporary="true" scriptUrl="$PROJECT_DIR$/docker/docker-start.ps1" executablePath="$PROJECT_DIR$/../../../../Program Files/PowerShell/7/pwsh.exe">
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="ContestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="contest" />
@@ -122,6 +132,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="PowerShell.docker-start.ps1" />
+      <item itemvalue="Spring Boot.ContestApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PowerShell.docker-start.ps1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -138,7 +157,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1747569257111</updated>
-      <workItem from="1747569259260" duration="4568000" />
+      <workItem from="1747569259260" duration="7262000" />
     </task>
     <task id="LOCAL-00001" summary="feat(main: Emiren) - refactored code to make it only focused on contest (beforehand, need some testing).">
       <option name="closed" value="true" />
@@ -156,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747577061520</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat(main: Emiren) - refactored code to make it only focused on contest (beforehand, need some testing).">
+      <option name="closed" value="true" />
+      <created>1747577119045</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1747577119045</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
