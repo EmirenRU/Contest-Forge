@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+
+  nginx:
+    restart: unless-stopped
+    build:
+      context:
+        ../frontend
+      dockerfile: Dockerfile
+    pull_policy: build
+    ports:
+      - "80:80"
+    links:
+      - protocol
+
+  protocol:
+    restart: unless-stopped
+    pull_policy: build
+    build:
+      context: ../
+      dockerfile: Dockerfile
+    command: ["java", "-jar", "/builder/protocol/target/protocol-0.9.0.jar"]
+    ports:
+      - "13134:13134"
+    volumes:
+      - ../protocol/src/main/resources:/app/resources/
+    environment:
+      - SERVER_FQW_URL=http://fqw:13131
+      - JAVA_OPTS=-Xms1g -Xmx4g -XX:MaxRAMPercentage=80.0 -XX:+UseContainerSupport
+    links:
+
+    depends_on:
+      - fqworkstation-builder
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: '8g'
+        reservations:
+          memory: '2g'
+
+networks:
+  default:
+    driver: bridge

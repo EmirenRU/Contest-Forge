@@ -4,16 +4,94 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e1b70cd-ff4c-4b6c-aa3a-278b451439e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emiren/contest/ContestApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/emiren/contest/ContestApplicationTests.java" afterDir="false" />
+    <list default="true" id="8e1b70cd-ff4c-4b6c-aa3a-278b451439e7" name="Changes" comment="feat(main: Emiren) - refactored code to make it only focused on contest (need some testing, beforehand).">
+      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/docker-remove.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/docker-start.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.eslintrc.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/Dockerfile1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/mime.types" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/template.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/template_1.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/template_2.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/template_2.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/FormField/FormField.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Layout/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Layout/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Layout/footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Layout/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Layout/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Project/AnnotationInfo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Project/ProjectInfo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Project/project.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Project/projectDetails.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/api/dowloadApi.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/api/queryClient.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/api/sendProjectData.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/checked.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/download.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/download.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/landing-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/react.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/rudn_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/rudn_logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/upload.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/button/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/context.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/types/nprogress.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/vite-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/tsconfig.node.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/vite.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/emiren/contest/Config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/emiren/contest/Config/AsyncConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/emiren/contest/Config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/emiren/contest/Controller/RestProtocolController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/emiren/contest/DTO/Generator/ContestData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/emiren/contest/DTO/Temporal/DocumentHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/emiren/contest/DTO/Temporal/FileHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/emiren/contest/Mapper/ContestMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/emiren/contest/Service/Cleanup/DocumentCleanupService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/emiren/contest/Service/Cleanup/Impl/DocumentCleanupServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/emiren/contest/Service/Word/ContestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/emiren/contest/Service/Word/Impl/ContestServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/emiren/contest/Service/api/ApiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/emiren/contest/Service/api/Impl/ApiServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/contest_template.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/contest_template.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/contest-1.0.0.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emiren/contest/ContestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/emiren/contest/ContestApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/emiren/contest/ContestApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/emiren/contest/ContestApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +100,45 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;EmirenRU&quot;
+  }
+}</component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1747574199" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1747574198" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/EmirenRU/Contest-Forge.git&quot;,
+    &quot;accountId&quot;: &quot;bbf43818-45d1-4534-9970-798928f5c896&quot;
+  }
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -30,32 +146,63 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2xGfJ9pdekrrv47v3ZNCCk1RpuZ" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Maven.contest [clean].executor": "Run",
+    "Maven.contest [install].executor": "Run",
+    "Maven.contest [package].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "Spring Boot.ContestApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Emil Yusupov/IdeaProjects/contest",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "ts.external.directory.path": "C:\\Users\\Emil Yusupov\\AppData\\Local\\JetBrains\\IntelliJ IDEA 2025.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.intellij.reactbuddy.reactComponents" value="false" />
+        <entry key="com.intellij.reactbuddy.reactInspector" value="false" />
+        <entry key="com.intellij.reactbuddy.storybook" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Emil Yusupov\IdeaProjects\contest" />
+      <recent name="C:\Users\Emil Yusupov\IdeaProjects\contest\src\main\resources" />
+      <recent name="C:\Users\Emil Yusupov\IdeaProjects\contest\src\main\java\com\emiren\contest" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Emil Yusupov\IdeaProjects\contest" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="ContestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="contest" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.emiren.contest.ContestApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.emiren.contest.ContestApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -76,11 +223,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1747569257111</updated>
-      <workItem from="1747569259260" duration="1535000" />
+      <workItem from="1747569259260" duration="4415000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Contest-Forge" />
+    </ignored-roots>
+    <MESSAGE value="feat(main: Emiren) - refactored code to make it only focused on contest" />
+    <MESSAGE value="feat(main: Emiren) - refactored code to make it only focused on contest (need some testing, beforehand)." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(main: Emiren) - refactored code to make it only focused on contest (need some testing, beforehand)." />
   </component>
 </project>

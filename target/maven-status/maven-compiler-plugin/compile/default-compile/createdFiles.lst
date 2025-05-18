@@ -1,0 +1,17 @@
+ru\emiren\contest\Config\SecurityConfig.class
+ru\emiren\contest\DTO\Generator\ContestData.class
+ru\emiren\contest\Service\Word\Impl\ContestServiceImpl.class
+ru\emiren\contest\Config\AsyncConfig.class
+ru\emiren\contest\Controller\RestProtocolController.class
+ru\emiren\contest\Mapper\ContestMapper.class
+ru\emiren\contest\Service\Cleanup\DocumentCleanupService.class
+ru\emiren\contest\Service\api\Impl\ApiServiceImpl.class
+ru\emiren\contest\Service\Cleanup\Impl\DocumentCleanupServiceImpl.class
+ru\emiren\contest\Mapper\ContestMapper$1.class
+ru\emiren\contest\Mapper\ContestMapper$2.class
+ru\emiren\contest\Service\api\ApiService.class
+ru\emiren\contest\ContestApplication.class
+ru\emiren\contest\DTO\Temporal\FileHolder.class
+ru\emiren\contest\Service\Word\ContestService.class
+ru\emiren\contest\Config\AppConfig.class
+ru\emiren\contest\DTO\Temporal\DocumentHolder.class

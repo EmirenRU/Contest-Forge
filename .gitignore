@@ -19,6 +19,49 @@
 *.tar.gz
 *.rar
 
+target/
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Custom ###
+logs/
+frontend/node_modules/
+
+### ENVS ###
+docker/.env
+frontend/.env
+
+### React ###
+frontend/dist
+frontend/node_modules
+frontend/package-lock.json
+/protocol/src/main/resources/~$ntest_template.docx
