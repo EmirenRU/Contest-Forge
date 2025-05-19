@@ -59,7 +59,6 @@ logs/
 frontend/node_modules/
 
 ### ENVS ###
-docker/.env
 frontend/.env
 
 ### React ###
