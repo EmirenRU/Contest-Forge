@@ -1,4 +1,4 @@
-import { DynamicFieldGroup, ProjectData } from "./project";
+import { DynamicFieldGroup, type ProjectData } from "./project";
 
 export const ProjectInfoPage = ({
   data,

@@ -1,11 +1,18 @@
+ 
 import './App.css'
-import { PageLayout } from './Layout/layout'
+import { Header } from './Header/Header'
+import { Project } from './Project/project'
 
 function App() {
+ 
+
   return (
-    <>
-    <PageLayout/>
-    </>
+    <div className='body-style'>
+    <Header/>
+    <Project/>
+ 
+    </div>
   )
 }
+
 export default App

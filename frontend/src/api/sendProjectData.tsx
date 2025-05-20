@@ -1,5 +1,5 @@
 import { sha256 } from "js-sha256";
-import { ProjectData } from "../Project/project";
+import type { ProjectData } from "../Project/project";
 import { downloadFileByUrl } from "./dowloadApi"
 
 interface ApiResponse {

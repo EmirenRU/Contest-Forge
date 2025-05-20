@@ -4,16 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e1b70cd-ff4c-4b6c-aa3a-278b451439e7" name="Changes" comment="feat(main: Emiren) - fixed docker, fixed builder of frontend">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="8e1b70cd-ff4c-4b6c-aa3a-278b451439e7" name="Changes" comment="feat(main: Emiren) - configured docker and nginx, refactored makefile (to run execute make all)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/Dockerfile1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/nginx.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/template.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/template_1.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/template_2.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/template_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/FormField/FormField.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Layout/Header.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Layout/footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Layout/footer.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Layout/header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Layout/layout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Project/AnnotationInfo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Project/AnnotationInfo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Project/ProjectInfo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Project/ProjectInfo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Project/projectDetails.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Project/projectDetails.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/api/sendProjectData.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/api/sendProjectData.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/checked.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/download.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/download.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/landing-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/rudn_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/rudn_logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/upload.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/button/Button.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/context.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/types/nprogress.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/vite-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/vite-env.d.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +121,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Emil Yusupov\\IdeaProjects\\contest\\frontend\\node_modules\\typescript\\lib&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2025.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -118,6 +141,7 @@
       <recent name="C:\Users\Emil Yusupov\IdeaProjects\contest\src\main\java\com\emiren\contest" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Emil Yusupov\IdeaProjects\contest\frontend" />
       <recent name="C:\Users\Emil Yusupov\IdeaProjects\contest" />
     </key>
   </component>
@@ -135,14 +159,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="PowerShell.docker-start.ps1" />
       <item itemvalue="Spring Boot.ContestApplication" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PowerShell.docker-start.ps1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
-        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-WS-251.25410.117" />
       </set>
     </attachedChunks>
   </component>
@@ -154,7 +183,8 @@
       <option name="presentableId" value="Default" />
       <updated>1747569257111</updated>
       <workItem from="1747569259260" duration="8055000" />
-      <workItem from="1747678443910" duration="1088000" />
+      <workItem from="1747678443910" duration="1126000" />
+      <workItem from="1747727462411" duration="88000" />
     </task>
     <task id="LOCAL-00001" summary="feat(main: Emiren) - refactored code to make it only focused on contest (beforehand, need some testing).">
       <option name="closed" value="true" />
@@ -188,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747581438697</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat(main: Emiren) - configured docker and nginx, refactored makefile (to run execute make all)">
+      <option name="closed" value="true" />
+      <created>1747679573989</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1747679573989</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +240,7 @@
     <MESSAGE value="feat(main: Emiren) - refactored code to make it only focused on contest (need some testing, beforehand)." />
     <MESSAGE value="feat(main: Emiren) - refactored code to make it only focused on contest (beforehand, need some testing)." />
     <MESSAGE value="feat(main: Emiren) - fixed docker, fixed builder of frontend" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(main: Emiren) - fixed docker, fixed builder of frontend" />
+    <MESSAGE value="feat(main: Emiren) - configured docker and nginx, refactored makefile (to run execute make all)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(main: Emiren) - configured docker and nginx, refactored makefile (to run execute make all)" />
   </component>
 </project>
