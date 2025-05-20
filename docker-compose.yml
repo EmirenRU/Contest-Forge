@@ -6,7 +6,7 @@ services:
     restart: unless-stopped
     build:
       context:
-        ../frontend
+        frontend
       dockerfile: Dockerfile
     pull_policy: build
     ports:
@@ -19,9 +19,7 @@ services:
     restart: unless-stopped
     pull_policy: build
     build:
-      context: ../
-      dockerfile: Dockerfile
-#    command: ["java", "-jar", "/builder/protocol/target/protocol-0.9.0.jar"]
+      context: .
     ports:
       - "13134:13134"
     volumes:

@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/header/header.tsx","./src/project/annotationinfo.tsx","./src/project/projectinfo.tsx","./src/project/project.tsx","./src/project/projectdetails.tsx","./src/api/send.tsx","./src/api/dowloadapi.tsx","./src/api/getdata.tsx","./src/api/queryclient.tsx","./src/api/sendprojectdata.tsx"],"version":"5.8.3"}
