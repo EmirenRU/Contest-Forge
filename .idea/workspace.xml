@@ -6,15 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8e1b70cd-ff4c-4b6c-aa3a-278b451439e7" name="Changes" comment="feat(main: Emiren) - added frontend, created by Ivan, and fixed some problems">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/.dockerignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/docker-remove.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/docker-remove.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/docker-start.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/docker-start.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/nginx.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/Project/project copy.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/emiren/contest/Config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/emiren/contest/Config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +84,7 @@
     &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
     &quot;Spring Boot.ContestApplication.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Emil Yusupov/IdeaProjects/contest&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -136,15 +129,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="PowerShell.docker-start.ps1" />
-      <item itemvalue="Spring Boot.ContestApplication" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="PowerShell.docker-start.ps1" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -165,7 +149,10 @@
       <workItem from="1747678443910" duration="1126000" />
       <workItem from="1747727462411" duration="88000" />
       <workItem from="1747728345098" duration="2954000" />
-      <workItem from="1747731393779" duration="159000" />
+      <workItem from="1747731393779" duration="402000" />
+      <workItem from="1747759234290" duration="311000" />
+      <workItem from="1747760633643" duration="35000" />
+      <workItem from="1747823423896" duration="1574000" />
     </task>
     <task id="LOCAL-00001" summary="feat(main: Emiren) - refactored code to make it only focused on contest (beforehand, need some testing).">
       <option name="closed" value="true" />
@@ -215,7 +202,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747727948221</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat(main: Emiren) - added frontend, created by Ivan, and fixed some problems">
+      <option name="closed" value="true" />
+      <created>1747731794872</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1747731794872</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
