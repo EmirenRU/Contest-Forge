@@ -3,6 +3,8 @@ import { sendProjectData } from '../api/sendProjectData';
 import { ProjectInfoPage } from './ProjectInfo';
 import { AnnotationPage } from './AnnotationInfo';
 import { ProjectDetailsPage } from './projectDetails';
+import { KPIPage } from './KPI';
+import { BudgetPage } from './Budget';
 
 // Типы данных
 
@@ -24,6 +26,22 @@ export interface EstimatedCost {
   pricePerUnit: number;
   total: number;
   justification: string;
+}
+
+export interface KPI {
+  name: string;
+  unit: string;
+  year1: string;
+  year2: string;
+  comment: string;
+}
+
+
+export interface BudgetItem {
+  name: string;
+  year1: string;
+  year2: string;
+  total: string;
 }
 
 export interface ProjectData {
@@ -48,7 +66,69 @@ export interface ProjectData {
   researchTeams: ResearchTeamMember[];
   fullNameOfSupervisor: string;
   listOfEstimatedCosts: EstimatedCost[];
+      numberOfArticles1: string;
+  numberOfArticles2: string;
+  commentsOnArticles: string;
+  moneyQuantity1: string;
+  moneyQuantity2: string;
+  commentsOnMoney: string;
+  numberOfParticipation1: string;
+  numberOfParticipation2: string;
+  commentsOnPublicationEntering: string;
+  applicationRegistration1: string;
+  applicationRegistration2: string;
+  commentsOnApplicationRegistration: string;
+  RgdRegistration1: string;
+  RgdRegistration2: string;
+  commentsOnRgd: string;
+  numberOfApplications1: string;
+  numberOfApplications2: string;
+  commentsOnNumberOfApplications: string;
+  numberOfSciMem1: string;
+  numberOfSciMem2: string;
+  commentsOnNumberOfSciMem: string;
+  numberOfMembersTill39_1: string;
+  numberOfMembersTill39_2: string;
+  commentsOnNumberOfMembersTill39: string;
+  numberOfStudents1: string;
+  numberOfStudents2: string;
+  commentsOnNumbersOfStudents: string;
+  // Форма 4 - Смета расходов
+  fondResult1: string;
+  fondResult2: string;
+  fondResultTotal: string;
+  projectManager1: string;
+  projectManager2: string;
+  projectManagerTotal: string;
+  juniorSciAssociate1: string;
+  juniorSciAssociate2: string;
+  juniorSciAssociateTotal: string;
+  phdStudents1: string;
+  phdStudents2: string;
+  phdStudentsTotal: string;
+  student1: string;
+  student2: string;
+  studentTotal: string;
+  hardware1: string;
+  hardware2: string;
+  hardwareTotal: string;
+  software1: string;
+  software2: string;
+  softwareTotal: string;
+  businessTrip1: string;
+  businessTrip2: string;
+  businessTripTotal: string;
+  outsource1: string;
+  outsource2: string;
+  outsourceTotal: string;
+  otherExpenses1: string;
+  otherExpenses2: string;
+  otherExpensesTotal: string;
+  total1: string;
+  total2: string;
+  total3: string;
 }
+
 
 // Компонент для управления динамическими полями
 export const DynamicFieldGroup = ({
@@ -132,8 +212,70 @@ export const Project = () => {
     justificationOfRequestedFinancing: '',
     researchTeams: [],
     fullNameOfSupervisor: '',
-    listOfEstimatedCosts: []
+    listOfEstimatedCosts: [],
+ // Форма 3
+  numberOfArticles1: '',
+  numberOfArticles2: '',
+  commentsOnArticles: '',
+  moneyQuantity1: '',
+  moneyQuantity2: '',
+  commentsOnMoney: '',
+  numberOfParticipation1: '',
+  numberOfParticipation2: '',
+  commentsOnPublicationEntering: '',
+  applicationRegistration1: '',
+  applicationRegistration2: '',
+  commentsOnApplicationRegistration: '',
+  RgdRegistration1: '',
+  RgdRegistration2: '',
+  commentsOnRgd: '',
+  numberOfApplications1: '',
+  numberOfApplications2: '',
+  commentsOnNumberOfApplications: '',
+  numberOfSciMem1: '',
+  numberOfSciMem2: '',
+  commentsOnNumberOfSciMem: '',
+  numberOfMembersTill39_1: '',
+  numberOfMembersTill39_2: '',
+  commentsOnNumberOfMembersTill39: '',
+  numberOfStudents1: '',
+  numberOfStudents2: '',
+  commentsOnNumbersOfStudents: '',
+  fondResult1: '',
+  fondResult2: '',
+  fondResultTotal: '',
+  projectManager1: '',
+  projectManager2: '',
+  projectManagerTotal: '',
+  juniorSciAssociate1: '',
+  juniorSciAssociate2: '',
+  juniorSciAssociateTotal: '',
+  phdStudents1: '',
+  phdStudents2: '',
+  phdStudentsTotal: '',
+  student1: '',
+  student2: '',
+  studentTotal: '',
+  hardware1: '',
+  hardware2: '',
+  hardwareTotal: '',
+  software1: '',
+  software2: '',
+  softwareTotal: '',
+  businessTrip1: '',
+  businessTrip2: '',
+  businessTripTotal: '',
+  outsource1: '',
+  outsource2: '',
+  outsourceTotal: '',
+  otherExpenses1: '',
+  otherExpenses2: '',
+  otherExpensesTotal: '',
+  total1: '',
+  total2: '',
+  total3: '',
   });
+
 
   const updateFormData = (field: keyof ProjectData, value: unknown) => {
     setFormData(prev => ({ ...prev, [field]: value }));
@@ -179,7 +321,24 @@ export const Project = () => {
           data={formData}
           updateData={updateFormData}
           prevPage={prevPage}
-          onSubmit={handleSubmit}
+            nextPage={nextPage}
+          />
+        )}
+
+        {currentPage === 4 && (
+          <KPIPage
+            data={formData}
+            updateData={updateFormData}
+            prevPage={prevPage}
+            nextPage={nextPage}
+          />
+        )}
+        {currentPage === 5 && (
+          <BudgetPage
+            data={formData}
+            updateData={updateFormData}
+            prevPage={prevPage}
+            onSubmit = {handleSubmit}
           />
         )}
       </form>

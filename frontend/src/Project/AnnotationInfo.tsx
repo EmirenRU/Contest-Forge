@@ -1,5 +1,6 @@
 import { DynamicFieldGroup, type ProjectData } from "./project";
 
+
 export const AnnotationPage = ({
   data,
   updateData,

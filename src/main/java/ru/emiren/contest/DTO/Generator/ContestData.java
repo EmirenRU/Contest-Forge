@@ -67,9 +67,9 @@ public class ContestData {
     private String projectManager1;
     private String projectManager2;
     private String projectManagerTotal;
-    private String juniorSciAssoсiate1;
-    private String juniorSciAssoсiate2;
-    private String juniorSciAssoсiateTotal;
+    private String juniorSciAssociate1;
+    private String juniorSciAssociate2;
+    private String juniorSciAssociateTotal;
     private String phdStudents1;
     private String phdStudents2;
     private String phdStudentsTotal;

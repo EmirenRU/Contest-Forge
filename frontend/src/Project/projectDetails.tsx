@@ -9,12 +9,12 @@
         data,
         updateData,
         prevPage,
-        onSubmit
+        nextPage,
     }: {
         data: ProjectData;
         updateData: (field: keyof ProjectData, value: unknown) => void;
         prevPage: () => void;
-        onSubmit:  (e: React.FormEvent) => Promise<void>;
+  nextPage: () => void;
     }) => {
         // Мемоизированные компоненты полей
         const TextAreaFieldGroup = useCallback(({
@@ -387,10 +387,10 @@ const handleAddTeamMember = useCallback((event: React.MouseEvent<HTMLButtonEleme
                     </button>
                     <button
                         type="submit"
-                        onClick={onSubmit}
+                        onClick={nextPage}
                         className="btn btn-primary"
                     >
-                        Отправить
+                        Далее
                     </button>
                 </div>
             </div>

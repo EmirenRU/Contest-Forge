@@ -84,9 +84,9 @@ public class ContestMapper {
         contestData.setProjectManager1(data.get("projectManager1") != null ? data.get("projectManager1").toString() : null);
         contestData.setProjectManager2(data.get("projectManager2") != null ? data.get("projectManager2").toString() : null);
         contestData.setProjectManagerTotal(data.get("projectManagerTotal") != null ? data.get("projectManagerTotal").toString() : null);
-        contestData.setJuniorSciAssoсiate1(data.get("juniorSciAssoсiate1") != null ? data.get("juniorSciAssoсiate1").toString() : null);
-        contestData.setJuniorSciAssoсiate2(data.get("juniorSciAssoсiate2") != null ? data.get("juniorSciAssoсiate2").toString() : null);
-        contestData.setJuniorSciAssoсiateTotal(data.get("juniorSciAssoсiateTotal") != null ? data.get("juniorSciAssoсiateTotal").toString() : null);
+        contestData.setJuniorSciAssociate1(data.get("juniorSciAssociate1") != null ? data.get("juniorSciAssociate1").toString() : null);
+        contestData.setJuniorSciAssociate2(data.get("juniorSciAssociate2") != null ? data.get("juniorSciAssociate2").toString() : null);
+        contestData.setJuniorSciAssociateTotal(data.get("juniorSciAssociateTotal") != null ? data.get("juniorSciAssociateTotal").toString() : null);
         contestData.setPhdStudents1(data.get("phdStudents1") != null ? data.get("phdStudents1").toString() : null);
         contestData.setPhdStudents2(data.get("phdStudents2") != null ? data.get("phdStudents2").toString() : null);
         contestData.setPhdStudentsTotal(data.get("phdStudentsTotal") != null ? data.get("phdStudentsTotal").toString() : null);

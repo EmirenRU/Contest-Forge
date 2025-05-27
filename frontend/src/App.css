@@ -1,4 +1,6 @@
 .body-style{
+}
+
+#root{
   background-color: rgb(243, 250, 255);
-  height: 100vh;
 }
