@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e1b70cd-ff4c-4b6c-aa3a-278b451439e7" name="Changes" comment="feat(main: Emiren) - added frontend, created by Ivan, and fixed some problems">
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/emiren/contest/DTO/Generator/ContestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/emiren/contest/DTO/Generator/ContestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/emiren/contest/Mapper/ContestMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/emiren/contest/Mapper/ContestMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/contest_template.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/contest_template.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +85,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;Spring Boot.ContestApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ContestApplication.executor&quot;: &quot;Profiler#1&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Emil Yusupov/IdeaProjects/contest&quot;,
@@ -91,7 +94,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.file-colors&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Emil Yusupov\\IdeaProjects\\contest\\frontend\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -116,7 +119,17 @@
       <recent name="C:\Users\Emil Yusupov\IdeaProjects\contest\frontend" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ContestApplication">
+  <component name="RunManager" selected="JUnit.All in contest">
+    <configuration name="All in contest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="contest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="docker-start.ps1" type="PowerShellRunType" factoryName="PowerShell" temporary="true" scriptUrl="$PROJECT_DIR$/docker/docker-start.ps1" executablePath="$PROJECT_DIR$/../../../../Program Files/PowerShell/7/pwsh.exe">
       <envs />
       <method v="2" />
@@ -152,7 +165,10 @@
       <workItem from="1747731393779" duration="402000" />
       <workItem from="1747759234290" duration="311000" />
       <workItem from="1747760633643" duration="35000" />
-      <workItem from="1747823423896" duration="1574000" />
+      <workItem from="1747823423896" duration="7188000" />
+      <workItem from="1747903045829" duration="2293000" />
+      <workItem from="1748264103081" duration="610000" />
+      <workItem from="1748338446555" duration="3777000" />
     </task>
     <task id="LOCAL-00001" summary="feat(main: Emiren) - refactored code to make it only focused on contest (beforehand, need some testing).">
       <option name="closed" value="true" />
@@ -210,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747731794872</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat(main: Emiren) - added frontend, created by Ivan, and fixed some problems">
+      <option name="closed" value="true" />
+      <created>1747825480846</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1747825480846</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +244,17 @@
         <option value="$PROJECT_DIR$/frontend/vite.config.d.ts" />
         <option value="$PROJECT_DIR$/frontend/vite.config.js" />
       </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
@@ -233,5 +268,9 @@
     <MESSAGE value="feat(main: Emiren) - configured docker and nginx, refactored makefile (to run execute make all)" />
     <MESSAGE value="feat(main: Emiren) - added frontend, created by Ivan, and fixed some problems" />
     <option name="LAST_COMMIT_MESSAGE" value="feat(main: Emiren) - added frontend, created by Ivan, and fixed some problems" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
